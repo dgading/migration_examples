@@ -34,37 +34,21 @@ function migration_demo_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_image' => array(
-    'und' => array(
-      0 => array(
-        'uid' => 1,
-        'filename' => 'Thorny_devil_pale.jpg',
-        'uri' => 'public://Thorny_devil_pale.jpg',
-        'filemime' => 'image/jpeg',
-        'filesize' => 568155,
-        'status' => 1,
-        'type' => 'image',
-        'uuid' => '23ed9d19-6683-43c8-8ee4-f1af233748b3',
-        'field_file_image_alt_text' => array(),
-        'field_file_image_title_text' => array(),
-        'rdf_mapping' => array(),
-        'metadata' => array(
-          'height' => 1447,
-          'width' => 1920,
-        ),
-        'height' => 1447,
-        'width' => 1920,
-        'alt' => 'A thorny dragon in Western Australia',
-        'title' => 'A thorny dragon in Western Australia',
-        'uuid_features_packaged_file_path' => 'assets/Thorny_devil_pale.jpg',
-      ),
-    ),
-  ),
+  'field_image' => array(),
   'field_image_caption' => array(
     'und' => array(
       0 => array(
         'value' => 'Credit: KeresH, Wikimedia Foundation',
         'format' => NULL,
+      ),
+    ),
+  ),
+  'field_more_info' => array(
+    'und' => array(
+      0 => array(
+        'url' => 'https://en.wikipedia.org/wiki/Thorny_devil',
+        'title' => 'Wikipedia',
+        'attributes' => array(),
       ),
     ),
   ),
@@ -82,15 +66,6 @@ function migration_demo_uuid_features_default_content() {
         'fid' => 2,
         'title' => NULL,
         'data' => NULL,
-      ),
-    ),
-  ),
-  'field_more_info' => array(
-    'und' => array(
-      0 => array(
-        'url' => 'https://en.wikipedia.org/wiki/Thorny_devil',
-        'title' => 'Wikipedia',
-        'attributes' => array(),
       ),
     ),
   ),
@@ -157,8 +132,11 @@ function migration_demo_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
+  'comment_count' => 0,
+  'locations' => array(),
+  'location' => array(),
   'date' => '2018-08-06 13:46:20 -0400',
-  'user_uuid' => 'ed1148c0-be1b-41a7-aadb-88275c87b19d',
+  'user_uuid' => 'd7949f68-e846-4705-a55d-8f91a44ebced',
 );
   $nodes[] = array(
   'title' => 'Frill-necked Lizard ',
@@ -184,37 +162,21 @@ function migration_demo_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_image' => array(
-    'und' => array(
-      0 => array(
-        'uid' => 1,
-        'filename' => 'Frill-necked_Lizard_(Chlamydosaurus_kingii)_(8692622586).jpg',
-        'uri' => 'public://Frill-necked_Lizard_(Chlamydosaurus_kingii)_(8692622586).jpg',
-        'filemime' => 'image/jpeg',
-        'filesize' => 374722,
-        'status' => 1,
-        'type' => 'image',
-        'uuid' => 'ca42a6b9-99c3-4171-942d-abd9ecef4481',
-        'field_file_image_alt_text' => array(),
-        'field_file_image_title_text' => array(),
-        'rdf_mapping' => array(),
-        'metadata' => array(
-          'height' => 853,
-          'width' => 1280,
-        ),
-        'height' => 853,
-        'width' => 1280,
-        'alt' => 'Frill-necked Lizard (Chlamydosaurus kingii)',
-        'title' => 'Frill-necked Lizard (Chlamydosaurus kingii)',
-        'uuid_features_packaged_file_path' => 'assets/Frill-necked_Lizard_(Chlamydosaurus_kingii)_(8692622586).jpg',
-      ),
-    ),
-  ),
+  'field_image' => array(),
   'field_image_caption' => array(
     'und' => array(
       0 => array(
         'value' => 'Photo Credit: Matt, Wikimedia Foundation',
         'format' => NULL,
+      ),
+    ),
+  ),
+  'field_more_info' => array(
+    'und' => array(
+      0 => array(
+        'url' => 'https://en.wikipedia.org/wiki/Chlamydosaurus',
+        'title' => 'Wikipedia',
+        'attributes' => array(),
       ),
     ),
   ),
@@ -232,15 +194,6 @@ function migration_demo_uuid_features_default_content() {
         'fid' => 6,
         'title' => NULL,
         'data' => NULL,
-      ),
-    ),
-  ),
-  'field_more_info' => array(
-    'und' => array(
-      0 => array(
-        'url' => 'https://en.wikipedia.org/wiki/Chlamydosaurus',
-        'title' => 'Wikipedia',
-        'attributes' => array(),
       ),
     ),
   ),
@@ -307,8 +260,11 @@ function migration_demo_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
+  'comment_count' => 0,
+  'locations' => array(),
+  'location' => array(),
   'date' => '2018-08-06 13:52:34 -0400',
-  'user_uuid' => 'ed1148c0-be1b-41a7-aadb-88275c87b19d',
+  'user_uuid' => 'd7949f68-e846-4705-a55d-8f91a44ebced',
 );
   $nodes[] = array(
   'title' => 'Galapagos Marine Iguana',
@@ -334,37 +290,21 @@ function migration_demo_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_image' => array(
-    'und' => array(
-      0 => array(
-        'uid' => 1,
-        'filename' => '1280px-Marineiguanas.JPG',
-        'uri' => 'public://1280px-Marineiguanas.JPG',
-        'filemime' => 'image/jpeg',
-        'filesize' => 324733,
-        'status' => 1,
-        'type' => 'image',
-        'uuid' => '9ce71b7f-f1f2-4857-a5a2-fbe48693af38',
-        'field_file_image_alt_text' => array(),
-        'field_file_image_title_text' => array(),
-        'rdf_mapping' => array(),
-        'metadata' => array(
-          'height' => 853,
-          'width' => 1280,
-        ),
-        'height' => 853,
-        'width' => 1280,
-        'alt' => 'Marine Iguanas at Fernandina, Galapagos Islands',
-        'title' => 'Marine Iguanas at Fernandina, Galapagos Islands',
-        'uuid_features_packaged_file_path' => 'assets/1280px-Marineiguanas.JPG',
-      ),
-    ),
-  ),
+  'field_image' => array(),
   'field_image_caption' => array(
     'und' => array(
       0 => array(
         'value' => 'Photo Credit: Kjersti Holmang, Wikimedia Foundation',
         'format' => NULL,
+      ),
+    ),
+  ),
+  'field_more_info' => array(
+    'und' => array(
+      0 => array(
+        'url' => 'https://en.wikipedia.org/wiki/Marine_iguana',
+        'title' => 'Wikipedia',
+        'attributes' => array(),
       ),
     ),
   ),
@@ -382,15 +322,6 @@ function migration_demo_uuid_features_default_content() {
         'fid' => 8,
         'title' => NULL,
         'data' => NULL,
-      ),
-    ),
-  ),
-  'field_more_info' => array(
-    'und' => array(
-      0 => array(
-        'url' => 'https://en.wikipedia.org/wiki/Marine_iguana',
-        'title' => 'Wikipedia',
-        'attributes' => array(),
       ),
     ),
   ),
@@ -457,8 +388,11 @@ function migration_demo_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
+  'comment_count' => 0,
+  'locations' => array(),
+  'location' => array(),
   'date' => '2018-08-06 15:03:44 -0400',
-  'user_uuid' => 'ed1148c0-be1b-41a7-aadb-88275c87b19d',
+  'user_uuid' => 'd7949f68-e846-4705-a55d-8f91a44ebced',
 );
   return $nodes;
 }
