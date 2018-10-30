@@ -98,13 +98,13 @@ Enable and Run the Taxonomy Migration Examples
   `lando drush -y en migrate migrate_plus migrate_tools migrate_drupal migrate_drupal_ui;`
 
 4. Enable the migration example modules:
-  `lando drush -y en d7_migration_group_example d7_taxonomy_vocabulary_migration_example d7_taxonomy_term_migration_example;lando drush -y en d7_node_migration_example;lando drush cr;`
+  `lando drush -y en d7_migration_group_example d7_taxonomy_vocabulary_migration_example d7_taxonomy_term_migration_example;lando drush -y en d7_node_migration_example d7_file_migration_example d7_media_migration_example;lando drush cr;`
 
 5. Import the migration example configurations:
   `lando drush -y config-import --partial --source="modules/d7_migration_group_example/migrations/";lando drush -y config-import --partial --source="modules/database_migration_examples/d7_taxonomy_vocabulary_migration_example/migrations/";lando drush -y config-import --partial --source="modules/database_migration_examples/d7_taxonomy_term_migration_example/migrations/";lando drush -y config-import --partial --source="modules/database_migration_examples/d7_node_migration_example/migrations/";lando drush cr;lando drush ms;`
 
 6. Run the migrations:
-  `lando drush mim d7_taxonomy_vocabulary_migration_example;lando drush mim d7_taxonomy_term_migration_example;lando drush ms;lando drush mim d7_node_migration_example;`
+  `lando drush mim d7_taxonomy_vocabulary_migration_example;lando drush mim d7_taxonomy_term_migration_example; lando drush mim d7_file_migration_example; lando drush mim audio_media_migration_example; lando drush mim image_media_migration_example; lando drush ms;lando drush mim d7_node_migration_example;`
 
 7. Browse the d8_site to verify the migrations were successful:
     Taxonomy Vocabulary and Terms:
